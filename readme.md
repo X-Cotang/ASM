@@ -13,7 +13,7 @@ ld -m {(elf_i386)|(i386pe) {set emulation}} -s -o {đường dẫn xuất file t
 VD: ld -m elf_i386 -s -o hello hello.o;//trên linux.  
 ld -m i386pe -s -o hello.exe hello.o
 ### Note
-1. List the available emulations:
+#### List the available emulations:
  - elf32_x86_64: ELF for x64-32, aka x32 — 32-bit x86-64 binaries
  - elf_i386: ELF for i386 — 32-bit i386 binaries
  - i386linux: a.out for i386
