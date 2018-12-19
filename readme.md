@@ -15,6 +15,6 @@ ld -m i386pe -s -o hello.exe hello.o
 ### Note
 -  List the available emulations 
 ```
-ld --verbose or ld -V
+ld --verbose; or ld -V;
 ```
 ⋅⋅⋅
