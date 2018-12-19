@@ -22,4 +22,5 @@ ld -m i386pe -s -o hello.exe hello.o
 ```
 ld --verbose; or ld -V;
 ```
+For information about ld : ftp://ftp.gnu.org/old-gnu/Manuals/ld-2.9.1/html_node/ld_3.html
 ⋅⋅⋅
