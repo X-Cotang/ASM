@@ -1,6 +1,6 @@
 # ASM
 - Cài nasm .
-- Sử dụng ld có sẵn của codeblock .
+- Sử dụng ld(linker) có sẵn của codeblock .(set path C:\Program Files (x86)\CodeBlocks\MinGW\bin )
 ## Compiling and Linking an Assembly Program in NASM
 ``` 
 nasm -f {(elf)|(win32)} ***.asm -o {đường dẫn xuất file (***.o)}
