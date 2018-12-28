@@ -20,7 +20,7 @@
   
 ![](https://www.tutorialspoint.com/assembly_programming/images/register1.jpg)  
 AX is the primary accumulator  
-BX is known as the base registerb  
+BX is known as the base register  
 CX is known as the count register  
 DX is known as the data register
 ## Pointer Registers (Thanh ghi con trỏ)
