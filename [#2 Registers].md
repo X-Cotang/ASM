@@ -34,9 +34,12 @@ DX is known as the data register
   - DI (Destination Index)
   ## Flag Registers (Thanh ghi cờ)
 - Là các thanh ghi 16 bit nhưng chỉ có 9 bit được sử dụng  
-|Flag: |					O| 	D |	I| 	T| 	S| 	Z| 		A| 		P| 		C|
-|--|--|--|--|--|--|--|
-|Bit no:| 	15| 	14| 	13| 	12| 	11| 	10| 	9| 	8| 	7| 	6| 	5| 	4| 	3| 	2| 	1| 	0|
+
+
+| Flag     |    |    |    |    | O  |  D | I | T | S | Z |   | A |   | P |   | C |
+| -------- |:--:| --:| -- |:--:| --:| -- |:-:| -:|:-:| -:|:-:| -:|:-:| -:|:-:| -:|
+| Bit no   | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |  
+
 
 -   Overflow Flag (OF) − It indicates the overflow of a high-order bit (leftmost bit) of data after a signed arithmetic operation.
 
