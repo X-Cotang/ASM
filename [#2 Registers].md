@@ -34,7 +34,8 @@ DX is known as the data register
   - DI (Destination Index)
   ## Flag Registers (Thanh ghi cờ)
 - Là các thanh ghi 16 bit nhưng chỉ có 9 bit được sử dụng  
-
+- Cờ trạng thái : Có 6 cờ trạng thái là AF,CF,SF,PF,ZF,OF .Phản ánh các trạng thái khác nhau của kết quả sau một thao tác nào đó.
+- Cờ điều khiển : Có 3 cờ điều khiển IF,TF,DF.
 
 | Flag     |    |    |    |    | O  |  D | I | T | S | Z |   | A |   | P |   | C |
 | -------- |:--:| --:| -- |:--:| --:| -- |:-:| -:|:-:| -:|:-:| -:|:-:| -:|:-:| -:|
