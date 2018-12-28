@@ -28,7 +28,7 @@ DX is known as the data register
   * IP (Instruction Pointer:Con trỏ lệnh): Chứa địa chỉ offset của ô nhớ chứa lệnh kế.IP kết hợp với CS cung cấp địa chỉ hiên tại của đoạn mã
   * BP (Base Pointer: Con trỏ cơ sở): Chứa địa chỉ offset của ô nhớ nằm trong stack.
   * SP (Stack Pointer: Con trỏ ngăn xếp): Chứa địa chỉ offset của đỉnh ngăn xếp.  
-  ## Index Registers (Thanh ghi chỉ số)
+## Index Registers (Thanh ghi chỉ số)
   - The 32-bit index registers are ESI and EDI,16 bit :SI and DI.Được dùng để chứa địa chỉ offset của mảng nhớ nguồn và đích trong các thao tác chuỗi. DS:SI phần tử thuộc chuỗi nguồn, ES:DI phần tử thuộc chuỗi đích
   - SI (Source Index)
   - DI (Destination Index)
