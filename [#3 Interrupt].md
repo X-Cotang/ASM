@@ -14,7 +14,7 @@ thống sẽ phải gọi thực hiện chương trình con phục vụ ngắt t
  3. Bắt đầu thực hiện chương trình con phục vụ ngắt cho đến khi gặp lệnh kết thúc chương trình này, đó là lệnh Iret
  4. Lấy nội dung của hai phần tử trên đỉnh Stack đặt vào lại cặp thanh ghi con trỏ lệnh để quay trở lại tiếp tục thực hiện lệnh sau lệnh gọi ngắt trong chương trình.
  
-**Một ngắt mềm, hay chính xác hơn là một chương trình con phục vụ ngắt, có thể thực hiện nhiều chức năng khác nhau, mỗi chức năng này được thể hiện thông qua một con số, được gọi là số hiệu hàm của ngắt. Do đó, trước khi gọi ngắt chương trình phải chỉ rõ gọi ngắt với hàm nào, bằng cách đặt số hiệu hàm cần gọi vào thanh ghi AH.**  
+> Một ngắt mềm, hay chính xác hơn là một chương trình con phục vụ ngắt, có thể thực hiện nhiều chức năng khác nhau, mỗi chức năng này được thể hiện thông qua một con số, được gọi là số hiệu hàm của ngắt. Do đó, trước khi gọi ngắt chương trình phải chỉ rõ gọi ngắt với hàm nào, bằng cách đặt số hiệu hàm cần gọi vào thanh ghi AH.  
 ---
 ## VD:
 ```ASM
