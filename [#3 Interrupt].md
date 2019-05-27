@@ -32,7 +32,7 @@ thống sẽ phải gọi thực hiện chương trình con phục vụ ngắt t
 ```
 Dãy lệnh trên thực hiện việc gọi hàm 02 của ngắt 10h (ngắt của BIOS), nó thực hiện việc dịch chuyển con trỏ đến dòng 10 cột 20 của màn hình văn bản.
 ### Tổng hợp các ngắt và các hàm : http://stanislavs.org/helppc/int_table.html
-Tham khảo thêm :
+Tham khảo thêm :  
 http://www.ytuongnhanh.vn/chi-tiet/chuong-6-hoat-dong-ngat-phan-1-48.html  
 https://linux-kernel-labs.github.io/master/lectures/interrupts.html
  
