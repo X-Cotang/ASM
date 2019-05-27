@@ -2,6 +2,8 @@
 - Ngắt (Interrupt) là các tín hiệu mà các thành phần trong hệ thống, như: thiết bị ngoại vi, hệ điều hành, chương trình người sử dụng, ..., gửi đến vi xử lý (họ Intel) mỗi khi nó cần trao đổi thông tin với vi xử lý hay cần được sự phục vụ từ vi xử lý. Hay ngắn gọn nó là sự xảy ra của một điều kiện ( một sự kiện) làm cho chương trình hiện hành bị tạm ngưng trong khi điều kiện được phục vụ bởi một chương trình khác
 - Ngắt cũng có thể phát sinh từ chính bên trong vi xử lý khi nó phát hiện một lỗi nghiêm trong xảy ra trong quá trình xử lý của nó.
 - Khi nhận được một tín hiệu yêu cầu ngắt vi xử lý sẽ dừng ngay thao tác (lệnh) hiện tại để xem xét và đáp ứng yêu cầu ngắt đó, sau đo mới tiếp tục lại từ thao tác (lệnh) mà nó bị dừng trước đó.  
+- Chương trình xử lý một ngắt đươc gọi là trình phục vụ ngắt ISR ( interrupt Service routine ) hay quản lý ngắt ( interrupt handler ).
+
 ``` 
 Hợp ngữ cung cấp lệnh Int để các chương trình gọi một ngắt mềm khi cần. 
 Khi gọi ngắt mềm chương trình phải chỉ ra số hiệu ngắt cần gọi, khi đó hệ 
@@ -30,4 +32,5 @@ thống sẽ phải gọi thực hiện chương trình con phục vụ ngắt t
 ```
 Dãy lệnh trên thực hiện việc gọi hàm 02 của ngắt 10h (ngắt của BIOS), nó thực hiện việc dịch chuyển con trỏ đến dòng 10 cột 20 của màn hình văn bản.
 ### Tổng hợp các ngắt và các hàm : http://stanislavs.org/helppc/int_table.html
+Tham khảo thêm :http://www.ytuongnhanh.vn/chi-tiet/chuong-6-hoat-dong-ngat-phan-1-48.html
  
