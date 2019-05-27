@@ -1,5 +1,5 @@
  # NGẮT TRONG CHƯƠNG TRÌNH ASSEMLBLY
-- Ngắt (Interrupt) là các tín hiệu mà các thành phần trong hệ thống, như: thiết bị ngoại vi, hệ điều hành, chương trình người sử dụng, ..., gửi đến vi xử lý (họ Intel) mỗi khi nó cần trao đổi thông tin với vi xử lý hay cần được sự phục vụ từ vi xử lý. 
+- Ngắt (Interrupt) là các tín hiệu mà các thành phần trong hệ thống, như: thiết bị ngoại vi, hệ điều hành, chương trình người sử dụng, ..., gửi đến vi xử lý (họ Intel) mỗi khi nó cần trao đổi thông tin với vi xử lý hay cần được sự phục vụ từ vi xử lý. Hay ngắn gọn nó là sự xảy ra của một điều kiện ( một sự kiện) làm cho chương trình hiện hành bị tạm ngưng trong khi điều kiện được phục vụ bởi một chương trình khác
 - Ngắt cũng có thể phát sinh từ chính bên trong vi xử lý khi nó phát hiện một lỗi nghiêm trong xảy ra trong quá trình xử lý của nó.
 - Khi nhận được một tín hiệu yêu cầu ngắt vi xử lý sẽ dừng ngay thao tác (lệnh) hiện tại để xem xét và đáp ứng yêu cầu ngắt đó, sau đo mới tiếp tục lại từ thao tác (lệnh) mà nó bị dừng trước đó.  
 ``` 
